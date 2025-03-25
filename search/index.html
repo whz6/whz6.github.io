@@ -57,25 +57,28 @@
 
   <div class="main">
     
-<link rel="stylesheet" href="/css/page.css">
+<link rel="stylesheet" href="/css/search.css">
 
-<post>
+<h1>Search</h1>
 
-  <br /><br />
+<form class="site-search-form">
+  <input type="text" id="local-search-input" class="st-search-input" />
+</form>
+<div id="local-search-result" class="local-search-result-cls"></div>
 
-  <div id="page_content">
-    
-  </div>
+<div hidden id="nfound">Result not found, please change the word...</div>
+<div hidden id="ninit">Loading index file, please wait...</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js"></script>
 
-  <br /><br /><br />
+<script src="/js/search.js"></script>
 
-  <div id="top">
-  <div onclick="window.scrollTo({top: 0, behavior: 'smooth'})">▲</div>
-  <div onclick="document.getElementById('footer').scrollIntoView({behavior: 'smooth'})">▼</div>
-</div>
-  
-
-</post>
+<script type="text/javascript" id="local.search.active">
+  var inputArea = document.querySelector("#local-search-input");
+  getSearchFile();
+  inputArea.onkeydown = function() {
+    if (event.keyCode === 13) return false
+  }
+</script>
   </div>
 
   <foot id="footer">
