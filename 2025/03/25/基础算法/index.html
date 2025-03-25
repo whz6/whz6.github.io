@@ -19,22 +19,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"সার্চ করা হচ্ছে...","empty":"আমরা উক্ত অনুসন্ধানের জন্য কোন ফলাফল খুঁজে পাইনি: ${query}","hits_time":"${hits} টি ফলাফল ${time} মিলিসেকেন্ড এ পাওয়া গেছে","hits":"${hits} টি ফলাফল পাওয়া গেছে"}}</script><script src="/js/config.js" defer></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+    <meta name="description" content="C++基础算法入门在计算机科学中，算法是解决问题的核心工具。C++ 是一种强大的编程语言，广泛用于实现各种算法。本文将介绍几种基础算法，并通过 C++ 示例代码帮助读者更好地理解和应用它们。 一、排序算法排序算法是将一组数据按照特定顺序排列的算法。常见的排序算法有冒泡排序、选择排序、插入排序、快速排序等。 （一）冒泡排序冒泡排序是一种简单的排序算法，它重复地遍历待排序的数列，比较相邻两个元素，如果">
+<meta property="og:type" content="article">
+<meta property="og:title" content="基础算法">
+<meta property="og:url" content="http://example.com/2025/03/25/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="C++基础算法入门在计算机科学中，算法是解决问题的核心工具。C++ 是一种强大的编程语言，广泛用于实现各种算法。本文将介绍几种基础算法，并通过 C++ 示例代码帮助读者更好地理解和应用它们。 一、排序算法排序算法是将一组数据按照特定顺序排列的算法。常见的排序算法有冒泡排序、选择排序、插入排序、快速排序等。 （一）冒泡排序冒泡排序是一种简单的排序算法，它重复地遍历待排序的数列，比较相邻两个元素，如果">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-03-25T15:40:03.000Z">
+<meta property="article:modified_time" content="2025-03-25T15:42:22.173Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="C++">
+<meta property="article:tag" content="Algorithm">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2025/03/25/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-cn","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://example.com/2025/03/25/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/","path":"2025/03/25/基础算法/","title":"基础算法"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Hexo</title>
+<title>基础算法 | Hexo</title>
   
 
 
@@ -84,7 +90,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Hexo</h1>
+      <p class="site-title">Hexo</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -110,7 +116,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           সূচীপত্র
@@ -123,6 +129,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#C-%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95%E5%85%A5%E9%97%A8"><span class="nav-number">1.</span> <span class="nav-text">C++基础算法入门</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95"><span class="nav-number">1.1.</span> <span class="nav-text">一、排序算法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F"><span class="nav-number">1.1.1.</span> <span class="nav-text">（一）冒泡排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F"><span class="nav-number">1.1.2.</span> <span class="nav-text">（二）选择排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%EF%BC%88%E4%B8%89%EF%BC%89%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F"><span class="nav-number">1.1.3.</span> <span class="nav-text">（三）插入排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%EF%BC%88%E5%9B%9B%EF%BC%89%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F"><span class="nav-number">1.1.4.</span> <span class="nav-text">（四）快速排序</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95"><span class="nav-number">1.2.</span> <span class="nav-text">二、搜索算法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E7%BA%BF%E6%80%A7%E6%90%9C%E7%B4%A2"><span class="nav-number">1.2.1.</span> <span class="nav-text">（一）线性搜索</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2"><span class="nav-number">1.2.2.</span> <span class="nav-text">（二）二分搜索</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95%E7%9A%84%E5%BA%94%E7%94%A8"><span class="nav-number">1.3.</span> <span class="nav-text">三、基础算法的应用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E6%95%B0%E6%8D%AE%E6%8E%92%E5%BA%8F"><span class="nav-number">1.3.1.</span> <span class="nav-text">（一）数据排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E6%95%B0%E6%8D%AE%E6%9F%A5%E6%89%BE"><span class="nav-number">1.3.2.</span> <span class="nav-text">（二）数据查找</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%EF%BC%88%E4%B8%89%EF%BC%89%E7%AE%97%E6%B3%95%E4%BC%98%E5%8C%96"><span class="nav-number">1.3.3.</span> <span class="nav-text">（三）算法优化</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E6%80%BB%E7%BB%93"><span class="nav-number">1.4.</span> <span class="nav-text">四、总结</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -160,16 +167,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-cn">
     <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/25/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -183,13 +191,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Hexo">
+      <meta itemprop="name" content="基础算法 | Hexo">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/03/25/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/" class="post-title-link" itemprop="url">基础算法</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          基础算法
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -221,8 +229,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="C-基础算法入门"><a href="#C-基础算法入门" class="headerlink" title="C++基础算法入门"></a>C++基础算法入门</h1><p>在计算机科学中，算法是解决问题的核心工具。C++ 是一种强大的编程语言，广泛用于实现各种算法。本文将介绍几种基础算法，并通过 C++ 示例代码帮助读者更好地理解和应用它们。</p>
+    <div class="post-body" itemprop="articleBody"><h1 id="C-基础算法入门"><a href="#C-基础算法入门" class="headerlink" title="C++基础算法入门"></a>C++基础算法入门</h1><p>在计算机科学中，算法是解决问题的核心工具。C++ 是一种强大的编程语言，广泛用于实现各种算法。本文将介绍几种基础算法，并通过 C++ 示例代码帮助读者更好地理解和应用它们。</p>
 <h2 id="一、排序算法"><a href="#一、排序算法" class="headerlink" title="一、排序算法"></a>一、排序算法</h2><p>排序算法是将一组数据按照特定顺序排列的算法。常见的排序算法有冒泡排序、选择排序、插入排序、快速排序等。</p>
 <h3 id="（一）冒泡排序"><a href="#（一）冒泡排序" class="headerlink" title="（一）冒泡排序"></a>（一）冒泡排序</h3><p>冒泡排序是一种简单的排序算法，它重复地遍历待排序的数列，比较相邻两个元素，如果它们的顺序错误就把它们交换过来。遍历数列的工作是重复地进行，直到没有再需要交换的元素为止。冒泡排序的时间复杂度为 (O(n^2))，空间复杂度为 (O(1))。</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">bubble_sort</span><span class="params">(std::vector&lt;<span class="type">int</span>&gt;&amp; arr)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> n = arr.<span class="built_in">size</span>();</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n - <span class="number">1</span>; ++i) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; n - <span class="number">1</span> - i; ++j) &#123;</span><br><span class="line">            <span class="keyword">if</span> (arr[j] &gt; arr[j + <span class="number">1</span>]) &#123;</span><br><span class="line">                std::<span class="built_in">swap</span>(arr[j], arr[j + <span class="number">1</span>]);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    std::vector&lt;<span class="type">int</span>&gt; arr = &#123;<span class="number">64</span>, <span class="number">34</span>, <span class="number">25</span>, <span class="number">12</span>, <span class="number">22</span>, <span class="number">11</span>, <span class="number">90</span>&#125;;</span><br><span class="line">    std::cout &lt;&lt; <span class="string">&quot;排序前：&quot;</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> num : arr) &#123;</span><br><span class="line">        std::cout &lt;&lt; num &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    std::cout &lt;&lt; std::endl;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">bubble_sort</span>(arr);</span><br><span class="line"></span><br><span class="line">    std::cout &lt;&lt; <span class="string">&quot;排序后：&quot;</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> num : arr) &#123;</span><br><span class="line">        std::cout &lt;&lt; num &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    std::cout &lt;&lt; std::endl;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -242,108 +249,43 @@
 
 <h3 id="（二）二分搜索"><a href="#（二）二分搜索" class="headerlink" title="（二）二分搜索"></a>（二）二分搜索</h3><p>二分搜索是一种高效的搜索算法，它要求待搜索的数组是有序的。每次搜索时，将数组分为两部分，比较中间元素与目标值，根据比较结果决定在左半部分还是右半部分继续搜索。二分搜索的时间复杂度为 (O(\log n))，空间复杂度为 (O(1))。</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">binary_search</span><span class="params">(<span class="type">const</span> std::vector&lt;<span class="type">int</span>&gt;&amp; arr, <span class="type">int</span> target)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> left = <span class="number">0</span>, right = arr.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span> (left &lt;= right) &#123;</span><br><span class="line">        <span class="type">int</span> mid = left + (right - left) / <span class="number">2</span>;</span><br><span class="line">        <span class="keyword">if</span> (arr[mid] == target) &#123;</span><br><span class="line">            <span class="keyword">return</span> mid;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (arr[mid] &lt; target) &#123;</span><br><span class="line">            left = mid + <span class="number">1</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            right = mid - <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    std::vector&lt;<span class="type">int</span>&gt; arr = &#123;<span class="number">11</span>, <span class="number">12</span>, <span class="number">22</span>, <span class="number">25</span>, <span class="number">34</span>, <span class="number">64</span>, <span class="number">90</span>&#125;;</span><br><span class="line">    <span class="type">int</span> target = <span class="number">25</span>;</span><br><span class="line">    <span class="type">int</span> result = <span class="built_in">binary_search</span>(arr, target);</span><br><span class="line">    <span class="keyword">if</span> (result != <span class="number">-1</span>) &#123;</span><br><span class="line">        std::cout &lt;&lt; <span class="string">&quot;元素 &quot;</span> &lt;&lt; target &lt;&lt; <span class="string">&quot; 在数组中的索引为 &quot;</span> &lt;&lt; result &lt;&lt; std::endl;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        std::cout &lt;&lt; <span class="string">&quot;数组中不存在元素 &quot;</span> &lt;&lt; target &lt;&lt; std::endl;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2025/03/25/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/#more" rel="contents">
-                আরো পড়ুন &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+
+<span id="more"></span>
+
+<h2 id="三、基础算法的应用"><a href="#三、基础算法的应用" class="headerlink" title="三、基础算法的应用"></a>三、基础算法的应用</h2><p>基础算法在实际应用中非常广泛，它们可以用于解决各种实际问题。以下是一些常见的应用场景：</p>
+<h3 id="（一）数据排序"><a href="#（一）数据排序" class="headerlink" title="（一）数据排序"></a>（一）数据排序</h3><p>在数据处理中，排序算法用于将数据按照某种顺序排列，方便后续的处理和分析。例如，对用户数据按照年龄或收入进行排序，以便进行分层分析。</p>
+<h3 id="（二）数据查找"><a href="#（二）数据查找" class="headerlink" title="（二）数据查找"></a>（二）数据查找</h3><p>在数据库查询中，搜索算法用于快速查找特定的数据记录。例如，通过用户 ID 或用户名查找用户信息。</p>
+<h3 id="（三）算法优化"><a href="#（三）算法优化" class="headerlink" title="（三）算法优化"></a>（三）算法优化</h3><p>在复杂系统中，基础算法可以作为优化算法的基础。例如，快速排序可以用于优化大规模数据的排序过程，提高系统的运行效率。</p>
+<h2 id="四、总结"><a href="#四、总结" class="headerlink" title="四、总结"></a>四、总结</h2><p>本文详细介绍了几种基础算法，包括冒泡排序、选择排序、插入排序、快速排序、线性搜索和二分搜索，并通过 C++ 示例代码展示了它们的实现。这些算法是计算机科学中的经典内容，对于初学者来说，理解并掌握它们是非常重要的。当然，算法的学习是一个不断深入的过程，本文只是抛砖引玉，希望读者能够在此基础上进一步探索更多复杂的算法和数据结构。</p>
+<hr>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/C/" rel="tag"># C++</a>
+              <a href="/tags/Algorithm/" rel="tag"># Algorithm</a>
+          </div>
+
         
-      
-    </div>
 
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2025/03/25/hello-world/" rel="prev" title="Hello World">
+                  <i class="fa fa-angle-left"></i> Hello World
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/25/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Hexo">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/03/25/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">প্রকাশিত হয়েছে</span>
-
-      <time title="তৈরি করা হয়েছেঃ 2025-03-25 17:57:06" itemprop="dateCreated datePublished" datetime="2025-03-25T17:57:06+08:00">2025-03-25</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
